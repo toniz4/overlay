@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       
-      - name: gentoo-repoman
+      - name: action-repoman
         # You may pin to the exact commit or the version.
-        # uses: gentoo-monero/repoman-action@e6a8d779d70e10166d4d9c31f3b4d95b9faba0d9
-        uses: gentoo-monero/repoman-action@v1
+        # uses: hacking-gentoo/action-repoman@74f6642bfcf4cf49add44956751351343930e5af
+        uses: hacking-gentoo/action-repoman@v1.0.0
